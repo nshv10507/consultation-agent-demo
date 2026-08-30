@@ -11,3 +11,9 @@ showSidebarNavigation = false
 
 [logger]
 level = "warning"
+
+[server]
+# 認証なしで公開アクセス
+headless = true
+enableCORS = true
+enableXsrfProtection = false
